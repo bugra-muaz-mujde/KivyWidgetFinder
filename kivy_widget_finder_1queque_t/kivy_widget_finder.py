@@ -3,8 +3,9 @@
 class KivyWidgetFinder:
     def __init__(self, instance):
         self.instance = instance
-        self.set_instance_to_main_widget()
         self.widget_list = {}
+        self.set_instance_to_main_widget()
+        self.explore_widget_tree(self.instance.children)
 
     def set_instance_to_main_widget(self):
         while True:
@@ -25,7 +26,7 @@ class KivyWidgetFinder:
     def append_widget_to_list(self, instance):
         self.widget_list[instance] = str(type(instance).__name__)
 
-    def find_widgets_from_class_and_get_list(self, class_name):
+    def find_widgets_and_get_list_from_class(self, class_name):
         widgets = []
         if self.widget_list:
             for key in self.widget_list:
@@ -35,7 +36,7 @@ class KivyWidgetFinder:
         else:
             return []
 
-    def find_widgets_from_parent_and_get_list(self, parent_class_name):
+    def find_widgets_and_get_list_from_parent(self, parent_class_name):
         widgets = []
         if self.widget_list:
             for key in self.widget_list:
@@ -45,7 +46,7 @@ class KivyWidgetFinder:
         else:
             return []
 
-    def find_widget_from_attribute_and_value(self, class_name, attribute, value):
+    def find_widget_and_get_list_from_attribute_and_value(self, class_name, attribute, value):
         widgets = []
         if self.widget_list:
             for key in self.widget_list:

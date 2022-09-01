@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7d1e2e6-5e30-465b-895e-fe296dc8a57c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/KivyWidgetFinder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="f659ea63-4b4f-428b-abb4-5a7d364d8add" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/kivy_widget_finder_1queque_t-0.0.1-py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kivy_widget_finder_1queque_t-0.0.1.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kivy_widget_finder_1queque_t-0.0.2-py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kivy_widget_finder_1queque_t-0.0.2.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kivy_widget_finder_1queque_t-0.0.3-py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/kivy_widget_finder_1queque_t-0.0.3.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kivy_widget_finder_1queque_t/kivy_widget_finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kivy-widget-finder-que/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kivy-widget-finder-que/kivy_widget_finder.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
@@ -30,36 +35,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/setup.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2E75DiprfYDhHai1nKX99PfRIC7" />
+  <component name="ProjectId" id="2E99AJDUe2D91hAVC8Md6XNa5q6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../canan" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\QueFact\PycharmProjects\KivyWidgetFinder\kivy-widget-finder" />
+      <recent name="C:\Users\QueFact\PycharmProjects\KivyWidgetFinder\kivy_widget_finder_que" />
+      <recent name="C:\Users\QueFact\PycharmProjects\KivyWidgetFinder\kivy-widget-finder-que" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7d1e2e6-5e30-465b-895e-fe296dc8a57c" name="Changes" comment="" />
-      <created>1661933664215</created>
+      <changelist id="f659ea63-4b4f-428b-abb4-5a7d364d8add" name="Changes" comment="" />
+      <created>1661996788410</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661933664215</updated>
+      <updated>1661996788410</updated>
     </task>
     <servers />
   </component>
@@ -73,5 +79,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
